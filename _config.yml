@@ -9,20 +9,20 @@ stellar:
 
 ######## head tags ########
 open_graph:
-  enable: true
+  enable: false
   twitter_id: # for open_graph meta
 
 
-######## Sidebar ########
+######## 工具条 ########
 sidebar:
   logo:
     avatar: '[config.avatar](/about/)' # you can set avatar link in _config.yml or '[https://xxx.png](/about/)'
     title: '[config.title](/)' # you can set html tag like: '[<img no-lazy height="32px" src="xxx"/>](/)'
-  menu:
-    # post: '[btn.blog](/)'
-    # wiki: '[btn.wiki](/wiki/)'
-    # friends: '[友链](/friends/)'
-    # about: '[关于](/about/)'
+  # menu:
+  #   post: '[btn.blog](/)'
+  #   wiki: '[btn.wiki](/wiki/)'
+  #   friends: '[友链](/friends/)'
+  #   about: '[关于](/about/)'
   # Sidebar widgets
   widget_layout:
     index: [welcome, recent] # for home/wiki/categories/tags/archives/404 pages
@@ -45,17 +45,18 @@ sidebar:
     # welcome
     welcome:
       layout: markdown
-      title: Stellar 入门指南
+      title: 欢迎你：
       content: | # support markdown
-        欢迎使用 [Stellar](https://github.com/xaoxuu/hexo-theme-stellar/) 主题，下面是您的入门指南，祝您使用愉快！
-        <br>
-        **第一步**
-        创建 `blog/_config.stellar.yml` 文件，在此文件中填写需要自定义的主题配置。
-        <br>
-        **第二步**
-        创建 `blog/source/_data/widgets.yml` 文件，此文件中填写需要自定义的侧边栏组件，例如 `welcome` 组件。
-        <br>
-        如果有任何疑问，请先查阅[文档](https://xaoxuu.com/wiki/stellar/)，如果文档中没有提供，请提 [issue](https://github.com/xaoxuu/hexo-theme-stellar/issues/) 向开发中询问。
+         -欢迎光临小站，我叫王景行！
+         -是一个喜欢编程、写作、摄影和英语的开发者，希望做一个终身学习者~
+        # <br>
+        # **第一步**
+        # 创建 `blog/_config.stellar.yml` 文件，在此文件中填写需要自定义的主题配置。
+        # <br>
+        # **第二步**
+        # 创建 `blog/source/_data/widgets.yml` 文件，此文件中填写需要自定义的侧边栏组件，例如 `welcome` 组件。
+        # <br>
+        # 如果有任何疑问，请先查阅[文档](https://xaoxuu.com/wiki/stellar/)，如果文档中没有提供，请提 [issue](https://github.com/xaoxuu/hexo-theme-stellar/issues/) 向开发中询问。
 
 
 
@@ -63,7 +64,7 @@ sidebar:
 breadcrumb:
   home: home # config.title / config.author / home or custom content
 
-######## Article ########
+######## 文章 ########
 article:
   # 如果没有指定封面，是否根据 tags 作为关键词搜索封面？
   auto_cover: false # search from https://source.unsplash.com/
@@ -79,32 +80,32 @@ article:
   # 相关文章，需要安装插件 (for layout: post)
   # npm i hexo-related-popular-posts
   related_posts:
-    enable: false
+    enable: true
     max_count: 5
     auto_cover: true # 如果没有封面就根据 tags 作为关键词搜索封面，开了此项将不会自动从文章中提取首张图片作为封面了。
 
 
 
-######## Comments ########
+######## 评论 ########
 comments:
-  service: # beaudar, utterances, valine, twikoo
+  service: beaudar # , utterances, valine, twikoo
   # beaudar
   # https://beaudar.lipk.org/
   beaudar:
-    repo: xxx/xxx
+    repo: wy117/blog-comments
     issue-term: pathname
     issue-number:
     theme: preferred-color-scheme
     label:
     input-position: top # top/bottom 评论框位置
     comment-order: desc # desc 排序
-    keep-theme: # true/false
+    keep-theme: true # true/false
     loading: false
     branch: main
   # utterances
   # https://utteranc.es/
   utterances:
-    repo: xxx/xxx
+    repo: wy117/blog-comments
     issue-term: pathname
     issue-number:
     theme: preferred-color-scheme
@@ -140,18 +141,18 @@ comments:
 ######## Footer ########
 footer:
   social:
-    # github:
-    #   icon: '<img src="https://cdn.jsdelivr.net/gh/cdn-x/placeholder@1.0.3/social/08a41b181ce68.svg"/>'
-    #   url: /
-    # music:
-    #   icon: '<img src="https://cdn.jsdelivr.net/gh/cdn-x/placeholder@1.0.3/social/3845874.svg"/>'
-    #   url: /
-    # unsplash:
-    #   icon: '<img src="https://cdn.jsdelivr.net/gh/cdn-x/placeholder@1.0.3/social/3616429.svg"/>'
-    #   url: /
-    # comments:
-    #   icon: '<img src="https://cdn.jsdelivr.net/gh/cdn-x/placeholder@1.0.3/social/942ebbf1a4b91.svg"/>'
-    #   url: /about/#comments
+    github:
+      icon: '<img src="https://cdn.jsdelivr.net/gh/cdn-x/placeholder@1.0.3/social/08a41b181ce68.svg"/>'
+      url: /
+    music:
+      icon: '<img src="https://cdn.jsdelivr.net/gh/cdn-x/placeholder@1.0.3/social/3845874.svg"/>'
+      url: /
+    unsplash:
+      icon: '<img src="https://cdn.jsdelivr.net/gh/cdn-x/placeholder@1.0.3/social/3616429.svg"/>'
+      url: /
+    comments:
+      icon: '<img src="https://cdn.jsdelivr.net/gh/cdn-x/placeholder@1.0.3/social/942ebbf1a4b91.svg"/>'
+      url: /about/#comments
   sitemap:
     # '博客':
     #   - '[近期](/)'
@@ -195,7 +196,7 @@ tag_plugins:
     tieba: https://cdn.jsdelivr.net/gh/volantis-x/cdn-emoji/tieba/%s.png
   # {% image %}
   image:
-    fancybox: # true, false
+    fancybox: true# true, false
 
 
 ######## JS Plugins ########
