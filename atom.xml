@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-03-02T19:35:08.139Z</updated>
+  <updated>2022-03-03T16:57:03.539Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://example.com/2022/03/03/hello-world/"/>
     <id>http://example.com/2022/03/03/hello-world/</id>
     <published>2022-03-02T17:38:44.416Z</published>
-    <updated>2022-03-02T19:35:08.139Z</updated>
+    <updated>2022-03-03T16:57:03.539Z</updated>
     
     
       
@@ -34,12 +34,10 @@
     
     
     
-    <category term="Markdown" scheme="http://example.com/categories/Markdown/"/>
     
+    <category term="测试" scheme="http://example.com/tags/%E6%B5%8B%E8%AF%95/"/>
     
-    <category term="Typora" scheme="http://example.com/tags/Typora/"/>
-    
-    <category term="Markdown" scheme="http://example.com/tags/Markdown/"/>
+    <category term="HTML" scheme="http://example.com/tags/HTML/"/>
     
   </entry>
   
