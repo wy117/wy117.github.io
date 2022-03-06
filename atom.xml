@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-03-06T07:47:01.995Z</updated>
+  <updated>2022-03-06T07:54:03.921Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Hello World</title>
+    <title>linux下编写c程序，显示‘undefined reference to `sin&#39;’</title>
     <link href="http://example.com/2022/03/06/linux-c1/"/>
     <id>http://example.com/2022/03/06/linux-c1/</id>
     <published>2022-03-06T07:35:16.946Z</published>
-    <updated>2022-03-06T07:47:01.995Z</updated>
+    <updated>2022-03-06T07:54:03.921Z</updated>
     
     
       
