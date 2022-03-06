@@ -44,29 +44,4 @@
     
   </entry>
   
-  <entry>
-    <title>Hello World</title>
-    <link href="http://example.com/2022/03/03/hello-world/"/>
-    <id>http://example.com/2022/03/03/hello-world/</id>
-    <published>2022-03-02T17:38:44.416Z</published>
-    <updated>2022-03-03T16:57:03.539Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
-        
-      
-    
-    
-    
-    
-    <category term="测试" scheme="http://example.com/tags/%E6%B5%8B%E8%AF%95/"/>
-    
-    <category term="HTML" scheme="http://example.com/tags/HTML/"/>
-    
-  </entry>
-  
 </feed>
